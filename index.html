@@ -11,13 +11,15 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-            <li> The head element contains information about the webpage</li>
+            <li> The head element contains information about the webpage (metadata)</li>
             <li> The body element represents the visible content shown to the user</li>
+            <li> To add an image // img src="File link goes here"</li>
             <li> Header elements must be used in order from H1 to H6</li>
             <li> Unordered lists are bullet points. Each bullet point must be wrapped with an li tag</li>
         </ul>
@@ -28,25 +30,34 @@
             <li> A margin indicates how much space I want around the outside of an element</li>
             <li> A padding indicates how much space I want around the content inside of an element</li>
             <li> Use a comma to combine multiple selectors into a single CSS rule</li>
+            <li> Common CSS tags include: text-align, background-color, margin-left or right, font-size, box-shadow, border</li>
         </ul>
       </section>
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-            <li> git status: checks what branch we are currently on</li>
-            <li> git checkout -b branch-name: creates a new branch and switches to it</li>
-            <li> git status: checks which branch currently working in</li>
-            <li> git add -A: commits all files in the working branch</li>
-            <li> git commit -m "message goes here" : associates a message to a commit</li>
+            <li> git status // checks what branch we are currently on</li>
+            <li> git checkout -b branch-name // creates a new branch and switches to it</li>
+            <li> git status // checks which branch currently working in</li>
+            <li> git add -A // commits all files in the working branch</li>
+            <li> git commit -m "message goes here" // associates a message to a commit</li>
             <li> git must preceded every comment</li>
-            <li> git pull origin main: ensure current branch is up to date before opening a pull request</li>
-            <li> git push origin main: pushes up all changes made</li>
+            <li> git pull origin main // ensure current branch is up to date before opening a pull request</li>
+            <li> git push origin main // pushes up all changes made</li>
         </ul>
       </section>
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-            <li> Enter your Javascript notes here</li>
+            <li>Semicolon must be used at the end of every line</li>
+            <li>Strings must be in quotation marks</li>
+            <li>console.log to print</li>
+            <li>Else if statements use === to determine if the code is truthy // if (topic === "Javascript"){ console.log ("Let's Study Javascript");}</li>
+            <li>Arrays are a single variable that hold a group of data // var shapes = ["triangle", "square", "pentagon", "circle"]</li>
+            <li>Index: location of the data item within an array. First item starts with 0 // Index number goes inside [] after the variable name // console.log (shapes[0]);</li>
+            <li>For Loops: for(var x = 0; x < shapes.length; x++) { console.log(shapes[x])}
+            <li>x & 0 are default // x++ is a shortcut for x+1 // .length is a special property always used after the variable name.</li>
+            <li>Commenting Out is to make code inactive without deleting it // To comment out multiple lines of code enter /* at beginning and */ at end of code block.</li>
         </ul>
       </section>
     </main>
@@ -54,5 +65,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src = "./assets/script.js"></script>
   </body>
 </html>
